@@ -1,0 +1,35 @@
+body {
+    font-size: 20px:
+}
+
+a:link {
+    color: dodgerblue;
+    direction: none;
+}
+
+a:hover {
+    background: red;
+}
+
+a:visited {
+    color: yellow;
+}
+
+button:active, 
+button:focus {
+    background: red;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px 20px;
+    border-left: 1px;
+}
+
+.menu li:first-child {
+    border-left: none;
+}
+
+.menu li:last-child {
+    border-right: none;
+}
