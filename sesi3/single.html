@@ -7,7 +7,7 @@
     <title>Taman Balai Kota</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat|Playfair+Display:700|Roboto:300,400,400i">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="stylesingle.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
     <div class="site-content">
@@ -21,10 +21,6 @@
         
         <main>
             <div class="detail-taman">
-                    <form>
-                        <button type="submit"><i class="ion-android-arrow-back"></i></button>
-                        <button type="submit"><i class="ion-android-arrow-forward"></i></button>
-                    </form>
                     <div class="slider">
                         <ul>
                             <li>
@@ -43,16 +39,20 @@
                                 </figure>
                             </li>
                         </ul>
+                        <form>
+                            <button type="submit"><i class="ion-ios-arrow-thin-left"></i></button>
+                            <button type="submit"><i class="ion-ios-arrow-thin-right"></i></button>
+                        </form>
                     </div>
             
                     <div class="map">
                         <img src="images/map.png" alt="map" />
-                        <a href="index.html">
-                            <i class="ion-ios-home-outline"></i> Kembali ke Halaman Utama
-                        </a>
-                        <a href="#">
-                            <i class="ion-compass"></i> Dapatkan Petunjuk
-                        </a>
+                        <div class="home">
+                            <a href="index.html"><i class="ion-ios-home-outline"></i> Kembali ke Halaman Utama</a>
+                        </div>
+                        <div>
+                            <a href="#"><i class="ion-compass"></i> Dapatkan Petunjuk</a>
+                        </div>
                     </div>
             </div>
         </main>
