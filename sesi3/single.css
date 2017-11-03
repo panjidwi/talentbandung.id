@@ -160,8 +160,47 @@ body {
 }
 
 @media screen and (max-width:990px) {
+    * {margin: 0; padding: 0;}
+    body {background-image: linear-gradient(to bottom, transparent, white 22%), url(images/background.jpg);}
     .content {width: 900px;}
-    .hero{ padding: 30px 15px;}
-	.hero .subtitle{ font-size: 48px}
-	.hero .title{font-size: 50px;}    
+    .hero {padding: 30px 15px;}
+    .hero .title {font-size: 50px;}
+    .hero .subtitle {font-size: 48px;}
+    .hero p {font-size: 13px; margin: 50px auto; padding: 0 200px;}
+    .detail-taman {width: 75%;}
+    .detail-taman .slider {width: 75%; margin: 50px, auto;}
+    .slider form {width: 75%;}
+    .slider form button {margin: 10px, 5px; font-size: 30px;}
+    .slider ul {padding: 0 25px; margin: 0 25px;}
+    .slider ul li {margin: 0 auto;}
+    .slider ul li img {width: 100%;}
+    .map {height: 350px;}
+    .map:before, .map:after {height: 100px;}
+    .link {margin: -80px auto;}
+    .link a {font-size: 15px;}
+    .link form button {width: 250px; height: 25px;}    
+    .footer {margin: 20px; padding: 30px;}
+}
+
+@media screen and (max-width:480px) {
+    * {margin: 0; padding: 0;}
+    body {background-image: linear-gradient(to bottom, transparent, white 12%), url(images/background.jpg);}
+    .content {width: 400px;}
+    .hero {padding: 30px 15px;}
+    .hero .title {font-size: 45px;}
+    .hero .subtitle {font-size: 35px;}
+    .hero p {font-size: 13px; margin: 35px auto; padding: 0 65px;}
+    .detail-taman {width: 80%;}
+    .detail-taman .slider {width: 80%; margin: 30px, auto;}
+    .slider form {width: 80%;}
+    .slider form button {margin: 8px, 5px; font-size: 20px;}
+    .slider ul {padding: 0; margin: 0 15px;}
+    .slider ul li {margin: 0 auto;}
+    .slider ul li img {width: 100%;}
+    .map {height: 350px;}
+    .map:before, .map:after {height: 100px;}
+    .link {margin: -200px auto;}
+    .link a {font-size: 13px;}
+    .link form button {width: 200px; height: 23px;}
+    .footer {margin: 15px; padding: 20px;}   
 }
