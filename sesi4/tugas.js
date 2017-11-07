@@ -3,8 +3,8 @@ function greeting(event){
 	return alert("Halo " + nama);
 }
 
-var app = document.getElementsByClassName('greet');
+var btn = document.getElementsByClassName('greet');
 
-for (var i = 0; i < app.length; i++) {
-	app[i].addEventListener('click' , greeting);
+for (var i = 0; i < btn.length; i++) {
+	btn[i].addEventListener('click' , greeting);
 }
