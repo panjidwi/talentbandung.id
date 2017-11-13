@@ -75,9 +75,9 @@
 		idText.classList.add = ('tr');
 
 		// Masukkan textContent text ayat
-		arText.textContent = quran.data.ayahs.text;
+		arText.textContent = quran.data[i].ayahs.text;
 		// Masukkan textContent text ayat dari translation
-		idText.textContent = translation.data.ayahs.text;
+		idText.textContent = translation.data[i].ayahs.text;
 
 		// appendChild arText ke dalam node
 		node.appendChild(arText);
