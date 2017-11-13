@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latihan 4</title>
+</head>
+<body>
+    <input type="text" id="filter" placeholder="Cari berdasarkan nama">
+    <ul id="list-taman"><!-- List oleh Jquery data dari API --></ul>
+
+    <script src="jquery-3.2.1.js"></script>
+    <script>
+        var listTaman = $('#list-taman');
+
+        $.get('https://www.ariona.net/talentbandung/', function(data, status) {
+            for (var i=0; i<data.length; i++) {
+                var taman = '<li class="taman"><img src="'+data[i].image.thumbnail+'"/>' + data[i].nama + '</li>'; 
+                listTaman.append(taman);
+            }
+        })
+
+        var search = filter.val();
+        var itemTaman = $('.taman');
+
+        itemTaman.each(function () {
+            var taman = $(this)
+            var namaTaman = taman.text().toLowerCase();
+
+            if(namaTaman.indexOf(search.toLowerCase()) != -1) {
+                taman.slideDown();
+            } else {
+                taman.slideUp();
+            }
+        })
+    </script>
+</body>
+</html>

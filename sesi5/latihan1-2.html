@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latihan 1</title>
+</head>
+<body>
+    <input type="text" id="filter">
+    <ul id="buah"><!-- List oleh JavaScript --></ul>
+    
+    <script>
+        var buah = ["Apel", "Jeruk", "Mangga", "Delima", "Anggur"];
+        var listbuah = document.getElementById('buah');
+
+        for(i=0; i<buah.length; i++) {
+            var listItem = document.createElement('li');
+            listItem.classList.add('buah');
+            listItem.textContent = buah[i];
+            listbuah.appendChild(listItem);
+        }
+        
+        var filter = document.getElementById('filter');
+        filter.addEventListener('keyup', filterBuah);
+
+        function filterBuah(){
+            var listItem = document.getElementsByClassName('buah');
+
+            for (i=0; i<listItem.length; i++) {
+                var listText = listItem[i].textContent.toLowerCase();
+                if(listText.indexOf(filter.value.toLowerCase()) !=-1) {
+                    listItem[i].style.display = "block";
+                } else {
+                    listItem[i].style.display = "none";
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>

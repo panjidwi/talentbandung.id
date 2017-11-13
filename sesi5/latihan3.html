@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latihan 3</title>
+</head>
+<body>
+    <input type="text" id="filter">
+    <ul id="buah"><!-- List oleh JQuery --></ul>
+    
+    <script src="jquery-3.2.1.js"></script>
+    <script>
+    var buah = ["Apel", "Jeruk", "Mangga", "Delima", "Anggur"];
+    var listbuah = $('#buah');
+
+    for(var i=0; i<buah.length; i++) {
+        var listitem = '<li class="buah">'+ buah[i] + '</li>';
+        listbuah.append(listitem);
+    }
+
+    var filter = $('#filter');
+    filter.keyup( filterBuah );
+
+    function filterBuah(){
+        var buah = $('.buah');
+
+        for(var i=0; i<buah.length; i++){
+            var item = $(buah[i]).text().toLowerCase();
+
+            if(item.indexOf(filter.val().toLowerCase()) != -1) {
+                $(buah[i]).slideDown();
+            } else {
+                $(buah[i]).slideUp();
+            }
+        }
+    }
+
+    var search = filter.val();
+    var buahItem = $('.buah');
+
+    buahItem.each(function(){
+        var buah = $(this)
+        var namaBuah = buah.text().toLocaleLowerCase();
+
+        if(namaBuah.indexOf(search.toLocaleLowerCase()) != -1) {
+            buah.slideDown();
+        } else {
+            buah.slideDown();
+        }
+    })
+    </script>
+</body>
+</html>
