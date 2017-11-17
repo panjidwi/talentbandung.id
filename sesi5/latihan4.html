@@ -22,35 +22,36 @@
         })
 
 
-        var filter = $('#filter');
-        filter.keyup(filtertaman);
-        
-        function filtertaman(){
-            var taman = $('.taman');
-            for (var i = 0; i < taman.length; i++) {
-                var item = $(taman[i]).text().toLowerCase();
-                if (item.indexOf(filter.val().toLowerCase()) != -1) {
-                    $(taman[i]).slideDown();
-                }else {
-                    $(taman[i]).slideUp();
-                }
-            }
-        }
-
 //        var filter = $('#filter');
-//        var search = filter.val();
-//        var itemTaman = $('.taman');
-
-//        itemTaman.each(function() {
-//            var taman = $(this)
-//            var namaTaman = taman.text().toLowerCase();
-
-//            if(namaTaman.indexOf(search.toLowerCase()) != -1) {
-//                taman.slideDown();
-//            } else {
-//                taman.slideUp();
+//        filter.keyup(filtertaman);
+        
+//        function filtertaman(){
+//            var taman = $('.taman');
+//            for (var i = 0; i < taman.length; i++) {
+//                var item = $(taman[i]).text().toLowerCase();
+//                if (item.indexOf(filter.val().toLowerCase()) != -1) {
+//                    $(taman[i]).slideDown();
+//                }else {
+//                    $(taman[i]).slideUp();
+//                }
 //            }
-//        })
+//        }
+
+        var filter = $('#filter');
+        var search = filter.val();
+        var itemTaman = $('.taman');
+        filter.keyup();
+
+        itemTaman.each(function () {
+            var taman = $(this)
+            var namaTaman = taman.text().toLowerCase();
+
+            if(namaTaman.indexOf(search.toLowerCase()) != -1) {
+                taman.slideDown();
+            } else {
+                taman.slideUp();
+            }
+        })
     </script>
 </body>
 </html>
