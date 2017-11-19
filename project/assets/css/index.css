@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    vertical-align: baseline;
 }
 
 /* body */
@@ -30,11 +31,11 @@ body {
 /* header nav-menu */
 #header .nav-menu {
     width: 100%;
-    height: 50px;
+    height: 55px;
     margin: 10px 0 20px;
-    padding: 13px 210px;
+    padding: 15px 215px;
     background: #ffffff;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.06);
     outline: none;
     overflow: hidden;
 }
@@ -45,13 +46,19 @@ body {
 }
 
 .nav-menu .menu li {
-    padding-right: 15px;
     float: left;
 }
 
 .nav-menu .menu li a {
+    padding: 20px;
     text-decoration: none;
-    color: #333333;
+    color: #333;
+    transition: 250ms ease-in-out;
+}
+
+.nav-menu .menu li a:hover {
+    background: #333;
+    color: #efefef;
 }
 
 .nav-menu .nav-search {
@@ -61,6 +68,7 @@ body {
 .nav-search input {
     width: 200px;
     height: 25px;
+    padding: 0 15px;
     border: 1px solid #b7b7b7;
     border-radius: 10px;
     transition: border-color 300ms ease-out;
