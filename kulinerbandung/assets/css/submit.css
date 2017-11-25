@@ -112,3 +112,11 @@ body {
     margin: 0 auto 40px;
     padding: 5px 0;
 }
+
+#content .alert-rec {
+    margin: 0 auto 20px;
+}
+
+#content .submit {
+    margin: 0 auto 20px;
+}
