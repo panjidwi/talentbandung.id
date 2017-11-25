@@ -120,3 +120,65 @@ body {
 #content .submit {
     margin: 0 auto 20px;
 }
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 200px;
+    padding: 15px 300px;
+    margin: 0 auto;
+    background: #232323;
+}
+
+/* external link */
+#footer .link {
+    width: 350px;
+    height: 100px;
+    margin: 8px 5px 15px;
+    padding: 10px;
+    border-left: 1px dashed #fefefe;
+    border-right: 1px dashed #fefefe;
+    display: inline-block;
+}
+
+/* socia link */
+#footer .social-link {
+    width: 350px;
+    height: 100px;
+    margin: 8px 5px 15px;
+    padding: 10px 0px;
+    border-right: 1px dashed #fefefe;
+    display: inline-block;
+}
+
+/* credit */
+#footer .credit {
+    width: 285px;
+    height: 50px;
+    margin: 5px auto;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    display: block;
+}
+
+#footer h3 {
+    color: #b7b7b7;
+    font-size: 16px;
+}
+
+#footer p, a {
+    color: #fefefe;
+}
+
+#footer a:hover {
+    text-decoration: none;
+} 
+
+#footer a:active {
+    color: #ff3a3a;
+}
+
+#footer ul {
+    list-style: none;
+}
