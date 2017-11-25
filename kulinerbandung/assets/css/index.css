@@ -245,7 +245,7 @@ body {
 
 /* external link */
 #footer .link {
-    width: 450px;
+    width: 100%;
     height: 100px;
     margin: 8px 5px 15px;
     padding: 10px;
