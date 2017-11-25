@@ -106,6 +106,28 @@ body {
     border: 1px solid #ff0c0c;
 }
 
+.nav-search button {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    color: #b7b7b7;
+    border: 1px solid #b7b7b7;
+    border-radius: 5px;
+    background: none;
+    transition: 300ms ease-in-out;
+}
+
+.nav-search button:hover {
+    border: 1px solid #ff3a3a;
+    color: #ff3a3a;
+}
+
+.nav-search button:active {
+    background: #ff3a3a;
+    color: #fefefe;
+}
+
+
 /* content */
 #content {
     max-width: 1000px;
