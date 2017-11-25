@@ -245,7 +245,7 @@ body {
 
 /* external link */
 #footer .link {
-    width: 350px;
+    width: 450px;
     height: 100px;
     margin: 8px 5px 15px;
     padding: 10px;
@@ -253,23 +253,12 @@ body {
     border-right: 1px dashed #fefefe;
     display: inline-block;
 }
-
-/* socia link */
-#footer .social-link {
-    width: 350px;
-    height: 100px;
-    margin: 8px 5px 15px;
-    padding: 10px 0px;
-    border-right: 1px dashed #fefefe;
-    display: inline-block;
-}
-
 /* credit */
 #footer .credit {
     width: 285px;
     height: 50px;
-    margin: 5px auto;
-    padding-top: 10px;
+    margin: 0 auto;
+    padding-top: 5px;
     text-align: center;
     font-size: 13px;
     display: block;
