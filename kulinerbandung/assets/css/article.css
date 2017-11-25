@@ -135,6 +135,7 @@ body {
     background: #fefefe;
 }
 
+/* info */
 #content .info {
     width: 100%;
     margin: 0 auto 15px;
@@ -143,7 +144,8 @@ body {
     background: #fefefe;
 }
 
-#content .recomendation {
+/* recommendation */
+#content .recommendation {
     width: 100%;
     margin: 0 auto 15px;
     padding: 20px;
@@ -151,14 +153,14 @@ body {
     background: #fefefe;
 }
 
-#content .recomendation .rec-item {
+#content .recommendation .rec-item {
     width: 100%;
     margin: 0 auto 5px;
     padding: 5px;
     background: #cccccc;
 }
 
-.recomendation .rec-item ul {
+.recommendation .rec-item ul {
     list-style: none;
 }
 
