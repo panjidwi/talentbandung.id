@@ -57,51 +57,16 @@
     },
     {
         "id": 9,
-        "nama": "",
-        "kategori": "",
-        "deskripsi": "",
+        "nama": "Cireng",
+        "kategori": "Makanan Ringan",
+        "deskripsi": "Salah satu jajan khas Bandung yang paling terkenal, berbahan dasar tepung beras. dimasak dengan cara digoring dan biasanya memiliki isian.",
         "images": ""
     },
     {
         "id": 10,
-        "nama": "",
-        "kategori": "",
-        "deskripsi": "",
-        "images": ""
-    },
-    {
-        "id": 11,
-        "nama": "",
-        "kategori": "",
-        "deskripsi": "",
-        "images": ""
-    },
-    {
-        "id": 12,
-        "nama": "",
-        "kategori": "",
-        "deskripsi": "",
-        "images": ""
-    },
-    {
-        "id": 13,
-        "nama": "",
-        "kategori": "",
-        "deskripsi": "",
-        "images": ""
-    },
-    {
-        "id": 14,
-        "nama": "",
-        "kategori": "",
-        "deskripsi": "",
-        "images": ""
-    },
-    {
-        "id": 15,
-        "nama": "",
-        "kategori": "",
-        "deskripsi": "",
+        "nama": "Bajigur",
+        "kategori": "Minuman",
+        "deskripsi": "Bajigur merupakan minuman tradisional yang berbahan dasar gula aren dan santan. Untuk menambah kenikmatan dicampur pula sedikit jahe, garam dan bubuk vanili.",
         "images": ""
     }
 ]
