@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "nama": "Baso Tahu",
+        "kategori": "Makanan Berat",
+        "deskripsi": "Penganan kukus yang berbahan dasar ikan tenggiri seringkali ditemani penganan pelengkap seperti tahu, kol, kentang, dan telur rebus. dimasak dengan cara dikukus serta disajikan dengan saus kacang.",
+        "images": ""
+    },
+    {
+        "id": 2,
+        "nama": "Batagor",
+        "kategori": "Makanan Berat",
+        "deskripsi": "Merupakan salah satu kuliner khas Bandung yang paling terkenal. biasanya berbahan dasar ikan tenggiri, dimasak dengan cara digoreng. memiliki tekstur renyah dan disajikan dengan saus kacang atau kuah kaldu.",
+        "images": ""
+    },
+    {
+        "id": 3,
+        "nama": "Gepuk",
+        "kategori": "Makanan Berat",
+        "deskripsi": "Makanan khas yang berbahan dasar daging sapi, terasa sedikit manis dan gurih.",
+        "images": ""
+    },
+    {
+        "id": 4,
+        "nama": "Karedok",
+        "kategori": "Makanan Berat",
+        "deskripsi": "makanan yang dibuat dengan bahan sayuran mentah seperti, mentimun, taoge, kol, kacang panjang, daun kemangi dan terong, disajikan bersama saus kacang.",
+        "images": ""
+    },
+    {
+        "id": 5,
+        "nama": "Lotek",
+        "kategori": "Makanan Berat",
+        "deskripsi": "makanan berupa rebusan berbagai macam sayur yang disiram dengan sambal yang dicampur bumbu kacang.",
+        "images": ""
+    },
+    {
+        "id": 6,
+        "nama": "Mie kocok",
+        "kategori": "Makanan Berat",
+        "deskripsi": "Hidangan mie khas bandung yang disajikan dengan kikil, taoge, baso dan disiram kuah kaldu.",
+        "images": ""
+    },
+    {
+        "id": 7,
+        "nama": "Nasi Timbel",
+        "kategori": "Makanan Berat",
+        "deskripsi": "Nasi yang dibungkus dengan daun pisang, panas dari nasi menjadikan aroma daun pisang luruh dan menambah aroma nasi.",
+        "images": ""
+    },
+    {
+        "id": 8,
+        "nama": "Nasi Liwet",
+        "kategori": "Makanan Berat",
+        "deskripsi": "cara masak nasi dalam tungku dengan nasi dibumbui sereh dan laos serta daun salam. Untuk menambah rasa ada yang menambahkan ikan asin.",
+        "images": ""
+    },
+    {
+        "id": 9,
+        "nama": "",
+        "kategori": "",
+        "deskripsi": "",
+        "images": ""
+    },
+    {
+        "id": 10,
+        "nama": "",
+        "kategori": "",
+        "deskripsi": "",
+        "images": ""
+    },
+    {
+        "id": 11,
+        "nama": "",
+        "kategori": "",
+        "deskripsi": "",
+        "images": ""
+    },
+    {
+        "id": 12,
+        "nama": "",
+        "kategori": "",
+        "deskripsi": "",
+        "images": ""
+    },
+    {
+        "id": 13,
+        "nama": "",
+        "kategori": "",
+        "deskripsi": "",
+        "images": ""
+    },
+    {
+        "id": 14,
+        "nama": "",
+        "kategori": "",
+        "deskripsi": "",
+        "images": ""
+    },
+    {
+        "id": 15,
+        "nama": "",
+        "kategori": "",
+        "deskripsi": "",
+        "images": ""
+    }
+]
