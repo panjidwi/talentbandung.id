@@ -19,56 +19,56 @@
         "id": 3,
         "nama": "Mie Kocok",
         "kategori": "Makanan Berat",
-        "deskripsi": "Hidangan mie khas bandung yang disajikan dengan kikil, taoge, baso dan disiram kuah kaldu.",
+        "deskripsi": "Hidangan mie khas bandung yang disajikan dengan kikil, tauge, baso dan disiram kuah kaldu.",
         "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article3.html",
         "images": "https://image.ibb.co/nfMgv6/miekocok.jpg"
     },
     {
         "id": 4,
-        "nama": "Karedok",
-        "kategori": "Makanan Berat",
-        "deskripsi": "makanan yang dibuat dengan bahan sayuran mentah seperti, mentimun, taoge, kol, kacang panjang, daun kemangi dan terong, disajikan bersama saus kacang.",
-        "link": "",
-        "images": ""
+        "nama": "Peyeum",
+        "kategori": "Makanan Ringan",
+        "deskripsi": "Penganan berbahan dasar singkong yang difermentasi. Peyeum dapat dimakan langsung atau diolah menjadi penganan lain.",
+        "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article4.html",
+        "images": "https://image.ibb.co/kq5fOR/peyeum.jpg"
     },
     {
         "id": 5,
         "nama": "Lotek",
         "kategori": "Makanan Berat",
-        "deskripsi": "makanan berupa rebusan berbagai macam sayur yang disiram dengan sambal yang dicampur bumbu kacang.",
-        "link": "",
-        "images": ""
+        "deskripsi": "Lotek adalah menu yang terdiri dari rebusan sayur-sayuran segar seperti bayam, tauge, kacang panjang, kangkung yang disiram dengan sambal kacang.",
+        "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article5.html",
+        "images": "https://image.ibb.co/nEN5q6/lotek.jpg"
     },
     {
         "id": 6,
-        "nama": "Nasi Timbel",
-        "kategori": "Makanan Berat",
-        "deskripsi": "Nasi yang dibungkus dengan daun pisang, panas dari nasi menjadikan aroma daun pisang luruh dan menambah aroma nasi.",
-        "link": "",
-        "images": ""
+        "nama": "Colenak",
+        "kategori": "Makanan Ringan",
+        "deskripsi": "Colenak terbuat dari Peyeum yang dibakar dan ditaung saus gula kelapa pada penyajianya.",
+        "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article6.html",
+        "images": "https://image.ibb.co/bCFEiR/clenak.jpg"
     },
     {
         "id": 7,
-        "nama": "Nasi Liwet",
-        "kategori": "Makanan Berat",
-        "deskripsi": "cara masak nasi dalam tungku dengan nasi dibumbui sereh dan laos serta daun salam. Untuk menambah rasa ada yang menambahkan ikan asin.",
-        "link": "",
-        "images": ""
+        "nama": "Bandrek",
+        "kategori": "Minuman",
+        "deskripsi": "Minuman penghangat badan berbahan dasar jahe dan gula aren yang memiliki rasa manis dan pedas, seringkali ditambahkan sedikit daging kelapa dalam penyajianya.",
+        "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article7.html",
+        "images": "https://image.ibb.co/jjeqoR/bandrek.jpg"
     },
     {
         "id": 8,
         "nama": "Cireng",
         "kategori": "Makanan Ringan",
-        "deskripsi": "Salah satu jajan khas Bandung yang paling terkenal, berbahan dasar tepung beras. dimasak dengan cara digoring dan biasanya memiliki isian.",
-        "link": "",
-        "images": ""
+        "deskripsi": "Salah satu jajan khas Bandung yang paling terkenal, berbahan dasar tepung kanji yang dicampur berbagai bumbu lalu digoreng.",
+        "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article8.html",
+        "images": "https://image.ibb.co/cbAQq6/cireng.jpg"
     },
     {
         "id": 9,
         "nama": "Bajigur",
         "kategori": "Minuman",
         "deskripsi": "Bajigur merupakan minuman tradisional yang berbahan dasar gula aren dan santan. Untuk menambah kenikmatan dicampur pula sedikit jahe, garam dan bubuk vanili.",
-        "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article.html",
+        "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article9.html",
         "images": "https://image.ibb.co/m7nyQ6/bajigur.jpg"
     }
 ]
