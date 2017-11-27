@@ -3,17 +3,17 @@
         "id": 1,
         "nama": "Baso Tahu",
         "kategori": "Makanan Berat",
-        "deskripsi": "Penganan kukus yang berbahan dasar ikan tenggiri seringkali ditemani penganan pelengkap seperti tahu, kol, kentang, dan telur rebus. dimasak dengan cara dikukus serta disajikan dengan saus kacang.",
+        "deskripsi": "Penganan kukus yang berbahan dasar ikan tenggiri seringkali ditemani penganan pelengkap seperti tahu, kol, pare, kentang, dan telur rebus serta disajikan dengan saus kacang, kecap manis, sambal juga perasaan jeruk nipis sebagai pelngkap.",
         "link": "",
         "images": ""
     },
     {
         "id": 2,
         "nama": "Batagor",
-        "kategori": "Makanan Berat",
-        "deskripsi": "Merupakan salah satu kuliner khas Bandung yang paling terkenal. biasanya berbahan dasar ikan tenggiri, dimasak dengan cara digoreng. memiliki tekstur renyah dan disajikan dengan saus kacang atau kuah kaldu.",
+        "kategori": "Makanan Ringan",
+        "deskripsi": "Batagor dibuat dari tahu yang dilembutkan diisi adonan berbahan Ikan tenggiri dan tepung tapioka lalu dibentuk menyerupai bola dengan digoreng selama beberapa menit hingga matang. Seringkali dihidangkan dengan bumbu kacang, kecap manis, sambal, dan air perasan jeruk nipis sebagai pelengkap.",
         "link": "",
-        "images": ""
+        "images": "https://image.ibb.co/k3WgdR/batagor.jpg"
     },
     {
         "id": 3,
@@ -77,6 +77,6 @@
         "kategori": "Minuman",
         "deskripsi": "Bajigur merupakan minuman tradisional yang berbahan dasar gula aren dan santan. Untuk menambah kenikmatan dicampur pula sedikit jahe, garam dan bubuk vanili.",
         "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article.html",
-        "images": ""
+        "images": "https://image.ibb.co/m7nyQ6/bajigur.jpg"
     }
 ]
