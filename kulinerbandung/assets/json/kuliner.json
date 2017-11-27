@@ -1,14 +1,6 @@
 [
     {
         "id": 1,
-        "nama": "Baso Tahu",
-        "kategori": "Makanan Berat",
-        "deskripsi": "Penganan kukus yang berbahan dasar ikan tenggiri seringkali ditemani penganan pelengkap seperti tahu, kol, pare, kentang, dan telur rebus serta disajikan dengan saus kacang.",
-        "link": "",
-        "images": ""
-    },
-    {
-        "id": 2,
         "nama": "Batagor",
         "kategori": "Makanan Ringan",
         "deskripsi": "Biasa dibuat dari adonan berbahan Ikan tenggiri dan tepung tapioka lalu digoreng beberapa menit hingga matang dan disajikan bersama saus kacang.",
@@ -16,12 +8,20 @@
         "images": "https://image.ibb.co/k3WgdR/batagor.jpg"
     },
     {
-        "id": 3,
-        "nama": "Gepuk",
+        "id": 2,
+        "nama": "Bakso Tahu",
         "kategori": "Makanan Berat",
-        "deskripsi": "Makanan khas yang berbahan dasar daging sapi, terasa sedikit manis dan gurih.",
-        "link": "",
-        "images": ""
+        "deskripsi": "Penganan kukus yang berbahan dasar ikan tenggiri seringkali ditemani penganan pelengkap serta disajikan dengan saus kacang.",
+        "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article2.html",
+        "images": "https://image.ibb.co/iSbgv6/baksotahu.jpg"
+    },
+    {
+        "id": 3,
+        "nama": "Mie Kocok",
+        "kategori": "Makanan Berat",
+        "deskripsi": "Hidangan mie khas bandung yang disajikan dengan kikil, taoge, baso dan disiram kuah kaldu.",
+        "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article3.html",
+        "images": "https://image.ibb.co/nfMgv6/miekocok.jpg"
     },
     {
         "id": 4,
@@ -41,14 +41,6 @@
     },
     {
         "id": 6,
-        "nama": "Mie kocok",
-        "kategori": "Makanan Berat",
-        "deskripsi": "Hidangan mie khas bandung yang disajikan dengan kikil, taoge, baso dan disiram kuah kaldu.",
-        "link": "",
-        "images": ""
-    },
-    {
-        "id": 7,
         "nama": "Nasi Timbel",
         "kategori": "Makanan Berat",
         "deskripsi": "Nasi yang dibungkus dengan daun pisang, panas dari nasi menjadikan aroma daun pisang luruh dan menambah aroma nasi.",
@@ -56,7 +48,7 @@
         "images": ""
     },
     {
-        "id": 8,
+        "id": 7,
         "nama": "Nasi Liwet",
         "kategori": "Makanan Berat",
         "deskripsi": "cara masak nasi dalam tungku dengan nasi dibumbui sereh dan laos serta daun salam. Untuk menambah rasa ada yang menambahkan ikan asin.",
@@ -64,7 +56,7 @@
         "images": ""
     },
     {
-        "id": 9,
+        "id": 8,
         "nama": "Cireng",
         "kategori": "Makanan Ringan",
         "deskripsi": "Salah satu jajan khas Bandung yang paling terkenal, berbahan dasar tepung beras. dimasak dengan cara digoring dan biasanya memiliki isian.",
@@ -72,7 +64,7 @@
         "images": ""
     },
     {
-        "id": 10,
+        "id": 9,
         "nama": "Bajigur",
         "kategori": "Minuman",
         "deskripsi": "Bajigur merupakan minuman tradisional yang berbahan dasar gula aren dan santan. Untuk menambah kenikmatan dicampur pula sedikit jahe, garam dan bubuk vanili.",
