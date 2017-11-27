@@ -3,7 +3,7 @@
         "id": 1,
         "nama": "Baso Tahu",
         "kategori": "Makanan Berat",
-        "deskripsi": "Penganan kukus yang berbahan dasar ikan tenggiri seringkali ditemani penganan pelengkap seperti tahu, kol, pare, kentang, dan telur rebus serta disajikan dengan saus kacang, kecap manis, sambal juga perasaan jeruk nipis sebagai pelngkap.",
+        "deskripsi": "Penganan kukus yang berbahan dasar ikan tenggiri seringkali ditemani penganan pelengkap seperti tahu, kol, pare, kentang, dan telur rebus serta disajikan dengan saus kacang.",
         "link": "",
         "images": ""
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "nama": "Batagor",
         "kategori": "Makanan Ringan",
-        "deskripsi": "Dibuat dari tahu yang dilembutkan diisi adonan berbahan Ikan tenggiri dan tepung tapioka lalu digoreng beberapa menit hingga matang dan disajikan bersama saus kacang.",
+        "deskripsi": "Biasa dibuat dari adonan berbahan Ikan tenggiri dan tepung tapioka lalu digoreng beberapa menit hingga matang dan disajikan bersama saus kacang.",
         "link": "https://panjidwi.github.io/talentbandung.id/kulinerbandung/article1.html",
         "images": "https://image.ibb.co/k3WgdR/batagor.jpg"
     },
