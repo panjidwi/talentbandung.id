@@ -134,10 +134,11 @@ body {
 /* content */
 #content {
     max-width: 1000px;
-    height: 100%;
+    height: auto;
     margin: 0 auto 40px;
     padding: 10px;
     text-align: center;
+    overflow: hidden;
 }
 
 /* content item */
@@ -164,11 +165,12 @@ body {
 /* item */
 #content .content-item .item {
     width: 300px;
-    height: 540px;
-    margin: 0 10px;
+    height: 550px;
+    margin: 10px;
     font-family: 'Open Sans' ;
     background: #fefefe;
-    display: inline-block;
+    display: block;
+    float: left;
     border-bottom: 5px solid #b7b7b7;
     transition: 300ms ease-in-out;
 }
@@ -212,6 +214,7 @@ body {
     margin: 0 auto;
     font-family: 'Barlow';
     background: url(../images/bg.png),#232323;
+    overflow: hidden;
 }
 
 /* credit */

@@ -134,32 +134,127 @@ body {
 /* content */
 #content {
     max-width: 1000px;
-    height: 100%;
+    height: auto;
     margin: 0 auto 40px;
     padding: 10px;
-    text-align: center;
+    position: relative;
+    z-index: -1;
 }
 
 /* article */
-#content .article {
+#content .web-article {
     width: 100%;
-    height: 485px;
+    height: auto;
     margin: 20px auto 10px;
-    padding: 15px;
+    padding: 15px 15px 10px;
     text-align: justify;
     border-top: 1px solid #e2e2e2;
+    overflow: hidden;
 }
 
-#content .article h1 {
-    padding: 10px 0;
+#content .web-article h1 {
+    padding: 5px 0;
     font-family: 'Contrail One';
+    font-size: 50px;
     color: #232323;
 }
 
-#content .about-web p {
+#content .web-article figure img {
+    margin: 10px 15px 10px 0;
+    padding: 10px;
+    float: left;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+#content .web-article span {
+    margin: 5px;
+    font-family: 'Open sans';
+    color: #232323;
+    position: absolute;
+    float: right;
+}
+
+#content .web-article span p {
     padding: 5px;
+}
+
+/* recommendation-list */
+#content .rec-list {
+    width: 100%;
+    height: auto;
+    margin: 20px auto 10px;
+    padding: 15px;
+    border-top: 1px solid #e2e2e2;
+    text-align: center;
+}
+
+#content .rec-list h2 {
+    font-family: 'Contrail One';
+    font-size: 25px;
+    color: #232323;
+}
+
+#content .rec-list i {
+    padding: 5px 0;
+    color: #232323;
+    font-size: 25px;
+}
+
+/* rec-item */
+#content .rec-list .rec-item {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background: #fefefe;
+    overflow: hidden;
+}
+
+#content .rec-list .rec-item h3 {
+    font-family: 'Barlow';
+    color: #232323;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+/* gallery */
+#content .rec-list .rec-item .gallery {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0 5px;
+    border-bottom: 1px solid #e2e2e2;
+    overflow: hidden;
+}
+
+#content .rec-list .rec-item .gallery figure {
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+}
+
+/* info */
+#content .rec-list .rec-item .info {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px 0 0;
     font-family: 'Open Sans';
     color: #232323;
+    text-align: center;
+}
+
+#content .rec-list .rec-item .info span {
+    width: 230px;
+    height: 80px;
+    padding: 0;
+    display: block;
+    float: left;
 }
 
 /* footer */
