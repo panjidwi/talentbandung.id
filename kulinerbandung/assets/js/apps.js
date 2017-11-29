@@ -1,9 +1,4 @@
-$(document).ready(function(){
-
-//scroll animation
-AOS.init();
-
-//list makanan
+//list-index-item
 var listMakanan = $('.content-item');
 var filter = $('.search');
 
@@ -12,7 +7,7 @@ $.get ('https://panjidwi.github.io/talentbandung.id/kulinerbandung/assets/json/k
         var makanan = '<div class="item">'+'<figure>'+'<img src="'+data[i].images+'" />'+'</figure>'+'<article>'+'<a href="'+data[i].link+'">'+'<h2>'+data[i].nama+'</h2>'+'<p>'+'<strong>'+data[i].kategori+'</strong>'+'</p>'+'<p>'+data[i].deskripsi+'</p>'+'</a>'+'</article>'+'</div>';
         listMakanan.append(makanan);
     }
-})
+});
 
 //filter-search
 filter.on('keyup', function(){
@@ -31,4 +26,59 @@ filter.on('keyup', function(){
     });
 });
 
+//popup-gallery-article
+$('.popup-gallery1').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile, mfp-fade',
+    gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1]
+    },
+    image: {
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+    }
+});
+
+$('.popup-gallery2').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile, mfp-fade',
+    gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1]
+    },
+    image: {
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+    }
+});
+
+$('.popup-gallery3').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile, mfp-fade',
+    gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1]
+    },
+    image: {
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+    }
+});
+
+//popup-maps-article
+$('.popup-gmaps').magnificPopup({
+    disableOn: 480,
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+
+    fixedContentPos: false
 });

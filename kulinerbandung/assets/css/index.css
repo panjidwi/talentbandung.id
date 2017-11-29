@@ -134,7 +134,7 @@ body {
 /* content */
 #content {
     max-width: 1000px;
-    height: auto;
+    height: 100%;
     margin: 0 auto 40px;
     padding: 10px;
     text-align: center;
