@@ -62,28 +62,6 @@ body {
     color: #fcfcfc;
 }
 
-/* dropdown menu */
-.nav-menu ul li ul{
-    margin-top: 14px;
-    background: #80bff7;
-    display: none;
-    position: absolute;
-}
-
-.nav-menu ul li ul li a{
-    width: 200px;
-    display: block;
-    color: #232323;
-}
-
-.nav-menu ul li:hover ul {
-    display: block;
-}
-
-.nav-menu ul li:hover ul li a:hover {
-    color: #fcfcfc;
-}
-
 /* nav-search */
 .nav-menu .nav-search {
     float: right;
@@ -137,38 +115,65 @@ body {
     height: 100%;
     margin: 0 auto 40px;
     padding: 10px;
+}
+
+#content .about-web {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0 20px;
+    border-top: 1px solid #e2e2e2;
+    overflow: hidden;
     text-align: center;
 }
 
-/* about web */
-#content .about-web {
-    width: 100%;
-    height: 280px;
-    margin: 20px auto 10px;
-    padding: 15px;
-    text-align: justify;
-    border-top: 1px solid #e2e2e2;
-}
-
 #content .about-web h1 {
-    padding: 10px 0;
+    padding: 20px 0;
     font-family: 'Contrail One';
     color: #232323;
 }
 
-#content .about-web p {
-    padding: 5px;
+#content .about-web .bcg {
+    width: 350px;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
     font-family: 'Open Sans';
+}
+
+#content .about-web .paragraph {
+    width: 400px;
+    height: auto;
+    margin: 20px 20px 0;
+    padding: 20px;
+    font-family: 'Open Sans';
+    display: block;
+    float: left;
+}
+
+#content .about-web .paragraph i {
+    font-size: 50px;
+    padding-bottom: 15px;
+    color: #4facff;
+}
+
+#content .about-web .paragraph p {
+    font-size: 20px;
+    padding: 5px;
     color: #232323;
 }
 
-#content .about-web a {
+#content .about-web .paragraph a {
     text-decoration: none;
-    color: #232323;
+    color: #4facff;
+    transition: 300ms ease-in-out;
 }
 
-#content .about-web a:hover {
-    text-decoration: underline;
+#content .about-web .paragraph a:hover {
+    color: #232323;
 }
 
 /* footer */

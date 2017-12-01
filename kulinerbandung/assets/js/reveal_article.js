@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    window.sr = ScrollReveal({reset: true});
+    window.sr = ScrollReveal({reset: true, mobile: false});
     //general   
     sr.reveal('.hero figure', {duration:1000, origin: 'top', mobile: false, reset: false});
     sr.reveal('.credit p', {duration: 800, delay: 100, origin: 'left', distance: '50px'});
