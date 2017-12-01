@@ -26,6 +26,7 @@ filter.on('keyup', function(){
     });
 });
 
+//event-popup-gallery
 $('.zoom-gallery').magnificPopup({
     delegate: 'a',
     type: 'image',

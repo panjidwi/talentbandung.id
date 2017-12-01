@@ -10,4 +10,7 @@ $(document).ready(function() {
     sr.reveal('.about-web h1', {duration: 800, origin: 'top', distance: '50px'});
     sr.reveal('.bcg', {duration: 800, origin: 'bottom'});
     sr.reveal('.paragraph', {duration: 800, origin: 'bottom'});
+    sr.reveal('.developer h2', {duration: 800, origin: 'top', distance: '50px'});
+    sr.reveal('.developer figure', {duration: 800, origin: 'bottom', distance: '50px'});
+    sr.reveal('.developer article', {duration: 800, origin: 'left', distance: '50px'});
 });

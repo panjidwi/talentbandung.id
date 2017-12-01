@@ -150,6 +150,7 @@ body {
     margin: 20px 20px 0;
     padding: 20px;
     font-family: 'Open Sans';
+    border: 1px solid #e2e2e2;
     display: block;
     float: left;
 }
@@ -174,6 +175,34 @@ body {
 
 #content .about-web .paragraph a:hover {
     color: #232323;
+}
+
+#content .developer {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0 20px;
+    border-top: 1px solid #e2e2e2;
+    color: #232323;
+    overflow: hidden;
+    text-align: center;
+}
+
+#content .developer h2 {
+    padding: 20px 0;
+    font-family: 'Contrail One';
+}
+
+#content .developer figure {
+    margin: 0 auto 20px;
+    padding: 0;
+}
+
+#content .developer article {
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-size: 20px;
 }
 
 /* footer */
@@ -226,4 +255,80 @@ body {
 
 #footer .logo2 {
     padding: 35px 0;
+}
+
+/* media */
+@media screen and (max-width:1024px){
+    #content { 
+        width: 1000px;
+        padding: 20px;
+    }
+
+    .item {
+        margin: 0 auto;
+    }
+
+    #footer {
+        padding: 15px 80px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #header {
+        width: 768px;
+    }
+
+    #header .nav-menu {
+        width: 768px;
+        padding: 14px 50px;
+        font-size: 20px;
+    }
+
+    #header .nav-search input {
+        margin-right: 20px;
+        border-radius: 5px;
+        width: 200px;
+    }
+
+    #header .nav-search button {
+        display: none;
+    }
+
+    #content {
+        max-width: 700px;
+    }
+
+    .content-item {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .title {
+        text-align: left;
+    }
+
+    #footer {
+        width: 768px;
+        padding: 15px 80px;
+    }
+
+    .credit {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #header {
+        width: 640px;
+    }
+
+    .menu {
+        width: 640px;
+        padding: 50px;
+    }
+
+    .nav-search {
+        width: 100px;
+        float: right;
+    }
 }

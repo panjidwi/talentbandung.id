@@ -237,7 +237,7 @@ body {
     padding: 35px 0;
 }
 
-/* responsive-media */
+/* media */
 @media screen and (max-width:1024px){
     #content { 
         width: 1000px;
@@ -304,5 +304,11 @@ body {
 
     .menu {
         width: 640px;
+        padding: 50px;
+    }
+
+    .nav-search {
+        width: 100px;
+        float: right;
     }
 }
