@@ -1,0 +1,143 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    background-color: #fcfcfc;
+    font-family: 'Open Sans', 'Contrail One', cursive, 'Barlow', sans-serif;
+    color: #232323;
+}
+
+/* header */
+#header {
+    width: 100%;
+    height: 225px;
+    margin: 0 auto 60px;
+    background: url(../images/bg.png) ,#232323;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+#header .hero {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* header nav-menu */
+#header .nav-menu {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 0;
+    font-family: 'Barlow';
+    font-size: 25px;
+}
+
+#header .nav-menu ul { list-style: none; }
+#header .nav-menu ul li { 
+    display: inline;
+    padding: 0 15px; 
+}
+#header .nav-menu ul li a {
+    text-decoration: none;
+    color: #232323;
+}
+#header .nav-menu ul li a:hover { color: #4facff; }
+
+/* content */
+#content {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 40px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* content item */
+#content .content-item {
+    width: 100%;
+    text-align: center;
+}
+
+#content .content-item .title {
+    width: 100%;
+    height: 80px;
+    margin: 20px auto;
+    padding: 20px 0;
+    font-family: 'Contrail One';
+    color: #232323;
+    border-top: 1px solid #e2e2e2;
+}
+
+#content .content-item i {
+    font-size: 25px;
+    color: #232323; 
+}
+
+/* item */
+#content .content-item .item {
+    width: 300px;
+    height: 100%;
+    margin: 10px auto;
+    font-family: 'Open Sans' ;
+}
+#content .content-item .item figure {
+    margin: 0;
+    padding: 0;
+}
+#content .content-item .item figure figcaption { padding: 50px 0; }
+#Content .content-item .item h1, p { font-family: 'Open Sans'; }
+#content .content-item .item h1 { font-size: 45px; }
+#content .content-item .item p { font-size: 30px; }
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 250px;
+    padding: 15px 0;
+    margin: 0 auto;
+    font-family: 'Barlow';
+    background: url(../images/bg.png),#232323;
+}
+
+/* credit */
+#footer .credit {
+    width: 100%;
+    height: auto;
+    padding: 35px 10px 35px 0;
+    color: #fcfcfc;
+    font-size: 20px;
+    font-family: 'Barlow';
+    text-align: center;
+}
+
+#footer .credit a {
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #fcfcfc;
+    transition: 300ms ease-in-out;
+}
+
+/* sponsor */
+#footer .logo1, .logo2 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+#footer .logo1 {
+    text-align: right;
+}
+
+#footer .logo2 {
+    padding-top: 15px;
+    text-align: left;
+}
